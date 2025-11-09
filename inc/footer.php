@@ -5,6 +5,9 @@
       <p>
         <?php echo $settings_r['site_about'] ?>
       </p>
+      <p>
+        <img src="images/logohm.png" alt="Logo" width="100" height="100" class="me-2">
+      </p>
     </div>
     <div class="col-lg-4 p-4">
       <h5 class="mb-3">Liên kết</h5>
