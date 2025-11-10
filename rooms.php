@@ -63,7 +63,7 @@
                   <span>Tiện ích</span>
                   <button id="facilities_btn" onclick="facilities_clear()" class="btn shadow-none btn-sm text-secondary d-none">Làm mới</button>
                 </h5>
-                <?php 
+              <?php 
                   $facilities_q = selectAll('facilities');
                   while($row = mysqli_fetch_assoc($facilities_q))
                   {
